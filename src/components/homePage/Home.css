@@ -1,14 +1,13 @@
-body{
-    background: linear-gradient(186.52deg, #6D6BDE 5.13%, #5553B7 24.24%);  
+.HomeMain{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(186.52deg, #6D6BDE 5.13%, #5553B7 24.24%);
 }
 .homeContainer{
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 1296px;
-    height: 770px;
-
 }
 .updateHomeButton{
     font-family: 'Mulish';

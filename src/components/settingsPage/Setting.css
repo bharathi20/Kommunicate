@@ -1,5 +1,7 @@
 .settings{
     background: linear-gradient(186.52deg, #6D6BDE 5.13%, #5553B7 24.24%);
+    width: 100vw;
+    height: 770px;
 }
 .main{
     display: flex;
@@ -7,13 +9,15 @@
     align-items: flex-start;
     background: #FFFFFF;
     border-radius: 24px 24px 0px 0px;
+    width: 100vw;
+    height: 684px;
 }
 
 .bodySection{
     padding: 48px;
     gap: 16px;
-    width: 1296px;
-    height: 642px;
+    width: 100vw;
+   
 }
 
 .FirstHeading{
@@ -24,17 +28,23 @@
     line-height: 160%;
 }
 
-.subHeading{
+.subheading{
+    width: 1200px;
+    height: 29px;
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 160%;
+    color: #112222;
 }
 .container{
     display: flex;
-    align-items: flex-start;
-    gap:53px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 53px;
     width: 1200px;
     height: 473px;
 }
@@ -46,6 +56,15 @@
     gap: 24px;
     width: 578px;
     height: 473px;
+}
+.listPara1{
+    width: 578px;
+    height: 56px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
 }
 .listPara1 li{
     width: 578px;
@@ -62,16 +81,14 @@
     color: #5553B7;
 }
 .formContainer{
-    margin-bottom:24px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 24px;
     gap: 16px;
-    position: relative;
     width: 578px;
-    height: 221px;
+    height: 216px;
     background: #F5F5FA;
     border: 1px solid #CAD3E3;
     border-radius: 8px;
@@ -94,6 +111,10 @@
     background: #FFFFFF;
     border: 1px solid #CAD3E3;
     border-radius: 4px;
+}
+
+.updateButtonDiv{
+    height:65px;
 }
 
 .updateButton{
@@ -148,22 +169,21 @@
 }
 
 .listPara2{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    padding: 0px;
     width: 578px;
-    height: 164px;
-}
-.listPara2 li{ 
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 160%;
+}
+.listPara2 li{ 
+    width: 578px;
+    height: 44px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
     color: #3C4B50;
-
+    
 }
 .rightContainer{
     padding: 32px 32px 16px;
@@ -174,7 +194,7 @@
 /* Footer */
 .footerSection{
     padding: 10px;
-    width: 1296px;
+    width: 100vw;
     height: 42px;
     background: #FFFFFF;
     box-shadow: 0px -1px 0px #CAD3E3;

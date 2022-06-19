@@ -10,7 +10,7 @@ export default function Home() {
   }
   
   return (
-    <div>
+    <div className='HomeMain'>
       <div className="titleLogo">
               <img className='logo'alt ="logo" src={logo}></img>
           </div>

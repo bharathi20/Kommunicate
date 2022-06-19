@@ -31,7 +31,7 @@ export default function Setting() {
         <div className="main">
             <div className="bodySection">
                 <h3 className="firstHeading">Adding live chat on your wordpress website is as easy as it gets.</h3>
-                <h4 className="subheading">Leverage the chatbot {`&`} live chat to interact with your website visitor and customers 24/7 by following these steps:</h4>
+                <p className="subheading">Leverage the chatbot {`&`} live chat to interact with your website visitor and customers 24/7 by following these steps:</p>
                 <div className="container">
                     <div className="leftContainer">
                         <ul className="listPara1">
