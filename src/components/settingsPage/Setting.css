@@ -1,0 +1,191 @@
+.settings{
+    background: linear-gradient(186.52deg, #6D6BDE 5.13%, #5553B7 24.24%);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border-radius: 24px 24px 0px 0px;
+}
+
+.bodySection{
+    padding: 48px;
+    gap: 16px;
+    width: 1296px;
+    height: 642px;
+}
+
+.FirstHeading{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+}
+
+.subHeading{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+}
+.container{
+    display: flex;
+    align-items: flex-start;
+    gap:53px;
+    width: 1200px;
+    height: 473px;
+}
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 0px 0px;
+    gap: 24px;
+    width: 578px;
+    height: 473px;
+}
+.listPara1 li{
+    width: 578px;
+    height: 56px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #3C4B50;
+}
+.loginLink{
+    text-decoration-line: underline;    
+    color: #5553B7;
+}
+.formContainer{
+    margin-bottom:24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 16px;
+    position: relative;
+    width: 578px;
+    height: 221px;
+    background: #F5F5FA;
+    border: 1px solid #CAD3E3;
+    border-radius: 8px;
+}
+
+.inputLabel{
+    width: 530px;
+    height: 26px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #3C4B50;
+}
+.userInput{
+    margin: 16px 0px 16px 0px;
+    width: 348px;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #CAD3E3;
+    border-radius: 4px;
+}
+
+.updateButton{
+    width: 121px;
+    height: 40px;
+    padding: 8px 14px;
+    gap: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #5553B7;
+    border-radius: 4px;
+}
+
+.userInput ::placeholder{
+    width: 57px;
+    height: 26px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: justify;
+    color: #BCC7DB;
+}
+
+.failure{
+    width: 92px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #EC6464;
+}
+.success{
+    width: 193px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    text-align: center;
+    color: #56BA90;
+}
+
+.listPara2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    width: 578px;
+    height: 164px;
+}
+.listPara2 li{ 
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #3C4B50;
+
+}
+.rightContainer{
+    padding: 32px 32px 16px;
+    gap: 16px;
+    width: 569px;
+    height: 473px;
+}
+/* Footer */
+.footerSection{
+    padding: 10px;
+    width: 1296px;
+    height: 42px;
+    background: #FFFFFF;
+    box-shadow: 0px -1px 0px #CAD3E3;
+}
+.footerText{
+    width: 624px;
+    height: 22px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #3C4B50;
+}
